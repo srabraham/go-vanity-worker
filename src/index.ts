@@ -3,7 +3,7 @@
 const GITHUB_USER = "srabraham";
 
 export default {
-  async fetch(request) {
+  async fetch(request: Request): Promise<Response> {
     const url = new URL(request.url);
     const [repo] = url.pathname.split("/").filter(Boolean);
 
