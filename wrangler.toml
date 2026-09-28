@@ -1,0 +1,7 @@
+name = "go-vanity-worker"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+routes = [
+  { pattern = "go.seanabraham.com", custom_domain = true },
+]
